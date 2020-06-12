@@ -1,6 +1,6 @@
 const express = require('express')
 const { isWebUri } = require('valid-url')
-const logger = require('./logger')
+const logger = require('../logger')
 const xss = require('xss')
 const BookmarksService = require('./bookmarks-service')
 const { getBookmarkValidationError } = require('./bookmark-validator')
